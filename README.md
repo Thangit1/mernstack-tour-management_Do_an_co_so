@@ -63,43 +63,24 @@ Dựa trên cấu trúc thư mục thực tế trong kho lưu trữ (hình ảnh
 Plaintext
 
 mernstack-tour-management_Do_an_co_so/
-
 ├── .vscode/
-
 └── quản lý tour du lịch/          # Thư mục chứa mã nguồn chính của ứng dụng
-
     ├── backend/
-    
     │   ├── config/             # Cấu hình kết nối cơ sở dữ liệu MongoDB
-    
     │   ├── controllers/        # Xử lý logic nghiệp vụ (auth, tour, booking, review)
-    
     │   ├── models/             # Định nghĩa Schema (User.js, Tour.js, Booking.js, Review.js)
-    
     │   ├── routes/             # Định tuyến API các endpoint
-    
     │   ├── utils/              # Middleware bảo mật & Xác thực token (verifyToken.js)
-    
     │   └── server.js           # File chạy chính của máy chủ Backend
-    
     │
-    
     └── frontend/
-    
         ├── public/
-        
         └── src/
-        
             ├── assets/         # Hình ảnh, icons và thư viện hình ảnh giao diện
-            
             ├── components/     # Các thành phần giao diện tái sử dụng (Header, Footer, TourCard)
-            
             ├── context/        # Quản lý trạng thái đăng nhập và quyền truy cập (AuthContext.js)
-            
             ├── hooks/          # Custom hook fetch dữ liệu tự động từ API (useFetch.js)
-            
-            ├── pages/          # Các trang giao diện (Home, Tours, TourDetails, Login, Register, SearchResultList, ThankYou)
-            
+            ├── pages/          # Các trang giao diện (Home, Tours, TourDetails, Login, Register, SearchResultList, ThankYou)          
             └── shared/         # Các thanh công cụ dùng chung toàn hệ thống (SearchBar.jsx)
 
 🛠️ Hướng dẫn cài đặt và khởi chạy
